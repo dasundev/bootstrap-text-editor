@@ -8,12 +8,48 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <title>Text Editor - [CT-2019-065]</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Hello World!</h1>
+    <!-- toolbar -->
+    <div class="bg-dark d-flex justify-content-center align-items-center">
+        <div class="tool">
+            <img src="assets/images/bold-xxl.png" width="25" height="25" alt="Bold">
+        </div>
+        <div class="tool">
+            <img src="assets/images/format_underline_white_192x192.png" width="35" height="35" alt="Underline">
+        </div>
+        <div class="tool">
+            <img src="assets/images/italic-xxl.png" width="25" height="25" alt="Italic">
+        </div>
+        <div class="tool">
+            <img src="assets/images/italic-xxl.png" width="25" height="25" alt="Italic">
+        </div>
+        <div class="tool">
+            <img src="assets/images/left.png" width="25" height="25" alt="Left">
+        </div>
+        <div class="tool">
+            <img src="assets/images/justify.png" width="25" height="25" alt="Justify">
+        </div>
+        <div class="tool">
+            <img src="assets/images/right.png" width="25" height="25" alt="Right">
+        </div>
+        <div class="tool">
+            <img src="assets/images/center.png" width="25" height="25" alt="Center">
+        </div>
+        <div class="tool">
+            <img src="assets/images/undo-4-32.png" width="25" height="25" alt="Undo">
+        </div>
+        <div class="tool">
+            <img src="assets/images/action-redo-32.png" width="25" height="25" alt="Redo">
+        </div>
+    </div>
+
+    <!-- editor -->
+    <div class="editor" contenteditable="true">
+
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
