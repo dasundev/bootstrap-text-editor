@@ -23,7 +23,7 @@ button {
     outline: none;
 }
 
-.editor {
+#editor {
     height: 500px;
     border: 1px solid #ddd;
     max-width: 1024px;
@@ -33,6 +33,6 @@ button {
     font-size: 20px;
 }
 
-.editor:focus-visible {
+#editor:focus-visible {
     outline: none;
 }
