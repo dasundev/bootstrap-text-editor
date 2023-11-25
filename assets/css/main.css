@@ -1,3 +1,8 @@
+button {
+    border: none;
+    background: none;
+}
+
 .tool {
     display: inline-flex;
     align-items: center;
@@ -14,12 +19,15 @@
     cursor: pointer;
 }
 
+.tool:focus {
+    outline: none;
+}
+
 .editor {
     height: 500px;
     border: 1px solid #ddd;
-    margin-top: 2rem;
     max-width: 1024px;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     padding: 1rem;
     border-radius: 5px;
     font-size: 20px;
