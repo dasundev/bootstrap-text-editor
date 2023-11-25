@@ -1,3 +1,3 @@
 function bold() {
-    document.execCommand('bold', true, null);
+    document.execCommand('bold', true, null)
 }
